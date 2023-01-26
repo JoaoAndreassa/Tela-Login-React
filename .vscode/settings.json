@@ -1,0 +1,5 @@
+{
+    "dataworkspace.excludedProjects": [
+        "server/node_modules/mysql/banco/banco.usuario"
+    ]
+}
