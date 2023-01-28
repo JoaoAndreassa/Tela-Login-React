@@ -1,0 +1,55 @@
+.container{
+    width: 400px;
+    height: max-content;
+    margin: auto;
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 7px;
+    font-family: sans-serif;
+    box-shadow: 10px 11px rgba(0, 0, 0, 0.7);
+    
+  
+  }
+  h1{
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px;
+  
+  }
+  
+  .login-form{
+    padding: 5px;
+  
+  }
+  .form-field{
+    display: inline-block;
+    padding: 16px;
+    margin-top: 20px;
+    width: 350px;
+  }
+  .form-field-description{
+    height: 100px;
+    display: inline-block;
+    padding: 16px;
+    margin-top: 20px;
+    width: 350px;
+  }
+  .form-field-file{
+    display: inline-block;
+    padding: 1px;
+    margin-top: 20px;
+    
+  }
+  .button{
+    width: 100px;
+    height: 35px;
+    margin-left: 5px;
+  }
+  
+  .form-error{
+    display: block;
+    color: rgb(237, 67, 55);
+    font-size:0.9em;
+    
+  }
