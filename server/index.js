@@ -20,7 +20,8 @@ app.use(cors());
 
 app.post("/register", (req,res)=>{
     const email = req.body.email;
-    const password = req.body.password;
+    const password = req.body.password ;
+    
 
     db.query("SELECT * FROM usuario WHERE email = ?", [email], (err, result) =>{
         if(err){
